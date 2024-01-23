@@ -15,6 +15,7 @@ services:
       - ./addons:/mnt/extra-addons
       - ./log:/var/log/odoo
       - ./config:/etc/odoo
+    user: root
 
   mydb:
     image: postgres:latest
