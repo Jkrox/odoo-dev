@@ -1,10 +1,6 @@
 Use `.env` file to setup environment variables:
 
 ```
-# JWT Security
-SECRET_KEY = 'odoo-test-secret-key'
-ALGORITHM = 'HS256'
-
 # Odoo environment
 ODOO_USER = odoo
 ODOO_PASSWORD = odoo-password-test
@@ -14,3 +10,5 @@ POSTGRES_DB = postgres
 POSTGRES_USER = odoo
 POSTGRES_PASSWORD = odoo-password-test
 ```
+
+Start your Docker Desktop and run `docker compose up -d`
